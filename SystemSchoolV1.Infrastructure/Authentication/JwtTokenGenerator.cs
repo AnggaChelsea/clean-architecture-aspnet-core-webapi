@@ -1,0 +1,48 @@
+
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.AccessControl;
+using System.Security.Claims;
+using System.Text;
+using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
+using SystemSchoolV1.Application.Common.Interface.Authentication;
+
+namespace SystemSchoolV1.Infrastructure.Authentication;
+
+public class jwtTokenGenerator : IJwtTokenGenerator
+{
+
+    private readonly JwtSetting _jwtSetting;
+
+    public jwtTokenGenerator(IOptions<JwtSetting> jwtSettingOptions)
+    {
+        _jwtSetting = jwtSettingOptions.Value;
+    }
+
+    public string GenerateToken(Guid userId, string FirstName, string LastName )
+    {
+        var signingCredential = new SigningCredentials(
+            new SymmetricSecurityKey(
+                Encoding.UTF8.GetBytes("this is my custom Secret key for authentication")
+            ),
+            SecurityAlgorithms.HmacSha256
+        );
+        var claims = new [] 
+        {
+            new Claim(JwtRegisteredClaimNames.Sub, userId.ToString()),
+            new Claim(JwtRegisteredClaimNames.GivenName, FirstName),
+            new Claim(JwtRegisteredClaimNames.FamilyName, LastName),
+            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+        };
+
+        var securityToken = new JwtSecurityToken(
+            issuer: _jwtSetting.Issuer,
+            expires: DateTime.Now.AddDays(1),
+            claims: claims,
+            signingCredentials: signingCredential
+            );
+
+        return new JwtSecurityTokenHandler().WriteToken(securityToken);
+        
+    }
+}

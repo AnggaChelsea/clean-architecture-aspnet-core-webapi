@@ -1,0 +1,15 @@
+c:\Users\Angga Lesmana\Documents\mine\coding\C#\systemschoolv1\SystemSchoolV1\SystemSchoolV1.Application\bin\Debug\net7.0\SystemSchoolV1.Application.deps.json
+C:\Users\Angga Lesmana\Documents\mine\coding\C#\systemschoolv1\SystemSchoolV1\SystemSchoolV1.Application\bin\Debug\net7.0\SystemSchoolV1.Application.dll
+C:\Users\Angga Lesmana\Documents\mine\coding\C#\systemschoolv1\SystemSchoolV1\SystemSchoolV1.Application\bin\Debug\net7.0\SystemSchoolV1.Application.pdb
+C:\Users\Angga Lesmana\Documents\mine\coding\C#\systemschoolv1\SystemSchoolV1\SystemSchoolV1.Application\bin\Debug\net7.0\SystemSchoolV1.Domain.dll
+C:\Users\Angga Lesmana\Documents\mine\coding\C#\systemschoolv1\SystemSchoolV1\SystemSchoolV1.Application\bin\Debug\net7.0\SystemSchoolV1.Domain.pdb
+C:\Users\Angga Lesmana\Documents\mine\coding\C#\systemschoolv1\SystemSchoolV1\SystemSchoolV1.Application\obj\Debug\net7.0\SystemSchoolV1.Application.csproj.AssemblyReference.cache
+C:\Users\Angga Lesmana\Documents\mine\coding\C#\systemschoolv1\SystemSchoolV1\SystemSchoolV1.Application\obj\Debug\net7.0\SystemSchoolV1.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Angga Lesmana\Documents\mine\coding\C#\systemschoolv1\SystemSchoolV1\SystemSchoolV1.Application\obj\Debug\net7.0\SystemSchoolV1.Application.AssemblyInfoInputs.cache
+C:\Users\Angga Lesmana\Documents\mine\coding\C#\systemschoolv1\SystemSchoolV1\SystemSchoolV1.Application\obj\Debug\net7.0\SystemSchoolV1.Application.AssemblyInfo.cs
+C:\Users\Angga Lesmana\Documents\mine\coding\C#\systemschoolv1\SystemSchoolV1\SystemSchoolV1.Application\obj\Debug\net7.0\SystemSchoolV1.Application.csproj.CoreCompileInputs.cache
+c:\Users\Angga Lesmana\Documents\mine\coding\C#\systemschoolv1\SystemSchoolV1\SystemSchoolV1.Application\obj\Debug\net7.0\SystemSchoolV1.Application.csproj.CopyComplete
+C:\Users\Angga Lesmana\Documents\mine\coding\C#\systemschoolv1\SystemSchoolV1\SystemSchoolV1.Application\obj\Debug\net7.0\SystemSchoolV1.Application.dll
+C:\Users\Angga Lesmana\Documents\mine\coding\C#\systemschoolv1\SystemSchoolV1\SystemSchoolV1.Application\obj\Debug\net7.0\refint\SystemSchoolV1.Application.dll
+C:\Users\Angga Lesmana\Documents\mine\coding\C#\systemschoolv1\SystemSchoolV1\SystemSchoolV1.Application\obj\Debug\net7.0\SystemSchoolV1.Application.pdb
+c:\Users\Angga Lesmana\Documents\mine\coding\C#\systemschoolv1\SystemSchoolV1\SystemSchoolV1.Application\obj\Debug\net7.0\ref\SystemSchoolV1.Application.dll

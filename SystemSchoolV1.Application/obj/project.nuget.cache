@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "244rJ4n1H7VBNm4n6uaSkeXdROJB2giQg5bR6Jx3XuZQGXVun2BcT5ykIVqSR4p4SYGByvr8BaZLlHjQj4CzqQ==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Application\\SystemSchoolV1.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Angga Lesmana\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0-rc.1.23419.4\\microsoft.extensions.dependencyinjection.abstractions.8.0.0-rc.1.23419.4.nupkg.sha512"
+  ],
+  "logs": []
+}
