@@ -679,11 +679,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Application\\SystemSchoolV1.Application.csproj": {
-              "projectPath": "c:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Application\\SystemSchoolV1.Application.csproj"
+            "C:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Application\\SystemSchoolV1.Application.csproj": {
+              "projectPath": "C:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Application\\SystemSchoolV1.Application.csproj"
             },
-            "c:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Contracts\\SystemSchoolV1.Contracts.csproj": {
-              "projectPath": "c:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Contracts\\SystemSchoolV1.Contracts.csproj"
+            "C:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Contracts\\SystemSchoolV1.Contracts.csproj": {
+              "projectPath": "C:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Contracts\\SystemSchoolV1.Contracts.csproj"
             },
             "C:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Infrastructure\\SystemSchoolV1.Infrastructure.csproj": {
               "projectPath": "C:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Infrastructure\\SystemSchoolV1.Infrastructure.csproj"

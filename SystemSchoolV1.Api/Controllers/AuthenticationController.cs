@@ -33,9 +33,9 @@ namespace SystemSchoolV1.Api.Controllers
 
             var authenticationResponse = new AuthenticationResponse(
             Guid.NewGuid(),      
-            authResult.FirstName,   
-            authResult.LastName,
-            authResult.Email,
+            authResult.Siswa.FirsName,   
+            authResult.Siswa.LasName,
+            authResult.Siswa.Email,
             authResult.Token
             );
             return Ok(authenticationResponse);
@@ -49,9 +49,9 @@ namespace SystemSchoolV1.Api.Controllers
 
             var authenticationResponse = new AuthenticationResponse(
             Guid.NewGuid(),       // Id
-            authResult.FirstName,              // FirstName
-            authResult.LastName,
-            authResult.Email,
+            authResult.Siswa.FirsName,              // FirstName
+            authResult.Siswa.LasName,
+            authResult.Siswa.Email,
             authResult.Token    // Token
             );
             return Ok(authenticationResponse);

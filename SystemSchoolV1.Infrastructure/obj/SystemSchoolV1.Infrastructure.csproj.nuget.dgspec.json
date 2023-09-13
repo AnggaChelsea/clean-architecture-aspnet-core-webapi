@@ -4,14 +4,14 @@
     "C:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Infrastructure\\SystemSchoolV1.Infrastructure.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Application\\SystemSchoolV1.Application.csproj": {
+    "C:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Application\\SystemSchoolV1.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Application\\SystemSchoolV1.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Application\\SystemSchoolV1.Application.csproj",
         "projectName": "SystemSchoolV1.Application",
-        "projectPath": "c:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Application\\SystemSchoolV1.Application.csproj",
+        "projectPath": "C:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Application\\SystemSchoolV1.Application.csproj",
         "packagesPath": "C:\\Users\\Angga Lesmana\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Application\\obj\\",
+        "outputPath": "C:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Domain\\SystemSchoolV1.Domain.csproj": {
-                "projectPath": "C:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Domain\\SystemSchoolV1.Domain.csproj"
+              "c:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Domain\\SystemSchoolV1.Domain.csproj": {
+                "projectPath": "c:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Domain\\SystemSchoolV1.Domain.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Domain\\SystemSchoolV1.Domain.csproj": {
+    "c:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Domain\\SystemSchoolV1.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Domain\\SystemSchoolV1.Domain.csproj",
+        "projectUniqueName": "c:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Domain\\SystemSchoolV1.Domain.csproj",
         "projectName": "SystemSchoolV1.Domain",
-        "projectPath": "C:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Domain\\SystemSchoolV1.Domain.csproj",
+        "projectPath": "c:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Domain\\SystemSchoolV1.Domain.csproj",
         "packagesPath": "C:\\Users\\Angga Lesmana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Domain\\obj\\",
+        "outputPath": "c:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -163,8 +163,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Application\\SystemSchoolV1.Application.csproj": {
-                "projectPath": "c:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Application\\SystemSchoolV1.Application.csproj"
+              "C:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Application\\SystemSchoolV1.Application.csproj": {
+                "projectPath": "C:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Application\\SystemSchoolV1.Application.csproj"
               }
             }
           }

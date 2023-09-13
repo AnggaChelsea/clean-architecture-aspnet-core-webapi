@@ -1,7 +1,8 @@
-@Host = http://localhost:5144
-POST {{Host}}/auth/login
+@Host = https://localhost:7261/auth
+POST {{Host}}/login
 Content-Type: application/json
+
 {
-    "email": "john.doe@example.com",
-    "password": "secretpassword"
+    "email": "joshn.doe@example.com",
+    "password": "secrsetpassword"
 }

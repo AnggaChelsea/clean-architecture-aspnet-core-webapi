@@ -6,6 +6,7 @@ using System.Text;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using SystemSchoolV1.Application.Common.Interface.Authentication;
+using SystemSchoolV1.Domain.Entities;
 
 namespace SystemSchoolV1.Infrastructure.Authentication;
 
@@ -19,7 +20,7 @@ public class jwtTokenGenerator : IJwtTokenGenerator
         _jwtSetting = jwtSettingOptions.Value;
     }
 
-    public string GenerateToken(Guid userId, string FirstName, string LastName )
+    public string GenerateToken(Siswa siswa)
     {
         var signingCredential = new SigningCredentials(
             new SymmetricSecurityKey(
@@ -29,9 +30,9 @@ public class jwtTokenGenerator : IJwtTokenGenerator
         );
         var claims = new [] 
         {
-            new Claim(JwtRegisteredClaimNames.Sub, userId.ToString()),
-            new Claim(JwtRegisteredClaimNames.GivenName, FirstName),
-            new Claim(JwtRegisteredClaimNames.FamilyName, LastName),
+            new Claim(JwtRegisteredClaimNames.Sub, siswa.Id.ToString()),
+            new Claim(JwtRegisteredClaimNames.GivenName, siswa.FirsName),
+            new Claim(JwtRegisteredClaimNames.FamilyName, siswa.LasName),
             new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
         };
 
