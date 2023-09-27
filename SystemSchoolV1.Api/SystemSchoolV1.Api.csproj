@@ -1,15 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
-
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
-
   <ItemGroup>
-    <ProjectReference Include="..\SystemSchoolV1.Contracts\SystemSchoolV1.Contracts.csproj" />
-    <ProjectReference Include="..\SystemSchoolV1.Application\SystemSchoolV1.Application.csproj" />
-    <ProjectReference Include="..\SystemSchoolV1.Infrastructure\SystemSchoolV1.Infrastructure.csproj" />
+    <ProjectReference Include="..\SystemSchoolV1.Contracts\SystemSchoolV1.Contracts.csproj"/>
+    <ProjectReference Include="..\SystemSchoolV1.Application\SystemSchoolV1.Application.csproj"/>
+    <ProjectReference Include="..\SystemSchoolV1.Infrastructure\SystemSchoolV1.Infrastructure.csproj"/>
   </ItemGroup>
-
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.11"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.11"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.11"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.11"/>
+  </ItemGroup>
 </Project>

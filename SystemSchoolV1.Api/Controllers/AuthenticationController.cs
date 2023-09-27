@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using SystemSchoolV1.Contracts.Authentication;
-
-using SystemSchoolV1.Application.Services.AuthenticationService;
+using MediatR;
+using SystemSchoolV1.Application.Common.Interface.Authentication.Commands.Register;
+using SystemSchoolV1.Application.Common.Interface.Authentication.Commands.Login;
 
 namespace SystemSchoolV1.Api.Controllers
 {
@@ -15,46 +16,30 @@ namespace SystemSchoolV1.Api.Controllers
     public class AuthenticationController : ControllerBase
     {
 
-        private readonly IAuthenticationServices _authenticationService;
+       private readonly IMediator _imediator;
 
-        public AuthenticationController(IAuthenticationServices authenticationService)
+        public AuthenticationController(IMediator imediator)
         {
-            _authenticationService = authenticationService;
+            _imediator = imediator;
         }
 
         [HttpPost("register")]
         public IActionResult Register(RegisterRequest registerRequest)
         {
-            var authResult = _authenticationService.Register(
-                registerRequest.FirsName,
-                registerRequest.LastName,
-                registerRequest.Email,
-                registerRequest.Password);
+            var command = new RegisterCommand(registerRequest.FirsName, registerRequest.LastName, registerRequest.Email, registerRequest.Password);
+            var authResult = _imediator.Send(command);
 
-            var authenticationResponse = new AuthenticationResponse(
-            Guid.NewGuid(),      
-            authResult.Siswa.FirsName,   
-            authResult.Siswa.LasName,
-            authResult.Siswa.Email,
-            authResult.Token
-            );
-            return Ok(authenticationResponse);
+           
+            return Ok(authResult);
         }
         [HttpPost("login")]
         public IActionResult Login(LoginRequest loginRequest)
         {
-            var authResult = _authenticationService.Login(
-                loginRequest.Email,
-                loginRequest.Password);
+            var commandLogin = new LoginQueriesCommands(loginRequest.Email, loginRequest.Password);
+            var authResult = _imediator.Send(commandLogin);
 
-            var authenticationResponse = new AuthenticationResponse(
-            Guid.NewGuid(),       // Id
-            authResult.Siswa.FirsName,              // FirstName
-            authResult.Siswa.LasName,
-            authResult.Siswa.Email,
-            authResult.Token    // Token
-            );
-            return Ok(authenticationResponse);
+           
+            return Ok(authResult);
         }
     }
 }

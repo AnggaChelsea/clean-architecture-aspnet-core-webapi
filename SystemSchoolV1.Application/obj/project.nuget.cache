@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "BHMKIK2VLX1r2X1hpnbhse+Ixu8f0Fysd0yRcm2Acvz9gadLsAODLb6L5CumSasaNaqhh6ByFVcYGvByTxh8qA==",
+  "dgSpecHash": "U6tTfWCR/WgWIi3zswilKAu0IFLbrjN+PIUVR/kRmj9KJZ5qt4uA0TbLLCk2HPuvaFsCHsapWNEkKGbhzUTkFQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Angga Lesmana\\Documents\\mine\\coding\\C#\\systemschoolv1\\SystemSchoolV1\\SystemSchoolV1.Application\\SystemSchoolV1.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Angga Lesmana\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0-rc.1.23419.4\\microsoft.extensions.dependencyinjection.abstractions.8.0.0-rc.1.23419.4.nupkg.sha512"
+    "C:\\Users\\Angga Lesmana\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\Angga Lesmana\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Angga Lesmana\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "C:\\Users\\Angga Lesmana\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -24,7 +24,7 @@ public class jwtTokenGenerator : IJwtTokenGenerator
     {
         var signingCredential = new SigningCredentials(
             new SymmetricSecurityKey(
-                Encoding.UTF8.GetBytes("this is my custom Secret key for authentication")
+                Encoding.UTF8.GetBytes("this is my custom Secret key for authenticationasdasdasdasdasdasdasdasdasdasd")
             ),
             SecurityAlgorithms.HmacSha256
         );
@@ -44,6 +44,5 @@ public class jwtTokenGenerator : IJwtTokenGenerator
             );
 
         return new JwtSecurityTokenHandler().WriteToken(securityToken);
-        
     }
 }
