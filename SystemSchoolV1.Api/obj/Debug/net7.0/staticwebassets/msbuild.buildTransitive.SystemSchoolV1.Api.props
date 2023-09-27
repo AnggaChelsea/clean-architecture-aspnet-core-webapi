@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\SystemSchoolV1.Api.props" />
-</Project>

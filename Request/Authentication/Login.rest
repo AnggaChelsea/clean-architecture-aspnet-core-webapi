@@ -3,6 +3,6 @@ POST {{Host}}/login
 Content-Type: application/json
 
 {
-    "email": "joshn.doe@example.com",
+    "email": "joshnq.doe@example.com",
     "password": "secrsetpassword"
 }

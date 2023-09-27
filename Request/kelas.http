@@ -1,0 +1,2 @@
+GET https://localhost:7261/api/kelas/get-kelas
+Content-Type: application/json
